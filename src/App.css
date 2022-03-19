@@ -3,21 +3,21 @@
   font-family: "Karla", sans-serif;
 }
 ::selection {
-  background: #f59e0b;
+  background: #2abb9b;
   color: #fff;
 }
 ::-webkit-scrollbar {
   width: 12px;
 }
 ::-webkit-scrollbar-track {
-  background: rgb(241 245 249);
+  background: #fff;
 }
 ::-webkit-scrollbar-thumb {
-  background: #f59e0b;
+  background: #2abb9b;
   transition: 0.3s ease;
-  border: 3px solid rgb(241 245 249);
+  border: 3px solid #fff;
   border-radius: 100vh;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #da8d0a;
+  background: #16a085;
 }
