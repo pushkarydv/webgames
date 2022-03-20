@@ -82,7 +82,7 @@ export default function TicTacToe() {
             <div>{cross ? "Cross" : "Circle"} Turn</div>
           )}
         </div>
-        <div className=" grid grid-cols-3 gap-4 w-52 text-4xl lg:w-72 lg:text-6xl text-white">
+        <div className=" grid grid-cols-3 gap-4 w-52 text-4xl lg:w-72 lg:text-6xl text-white font-medium">
           {click.map((btn, index) => (
             <Button
               name={btn}
