@@ -9,7 +9,7 @@ export default function Navbar() {
             to="/"
             className="no-underline text-slate-800 font-medium text-4xl pl-2"
           >
-            Web Games
+            WG
           </Link>
         </div>
         <a

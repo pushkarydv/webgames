@@ -1,3 +1,11 @@
+import Footer from "../Footer";
+import Navbar from "../Navbar";
+
 export default function CoinFlip() {
-  return <div>sdfa</div>;
+  return (
+    <>
+      <Navbar />
+      <Footer />
+    </>
+  );
 }
