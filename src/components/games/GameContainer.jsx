@@ -7,9 +7,8 @@ export default function GameContainer(props) {
         <img
           src={process.env.PUBLIC_URL + "/" + props.img}
           className="p-8"
-          alt=""
+          alt="game_logo"
         />
-
         <Link
           to={props.link}
           className="transition w-full text-center bg-emerald-100 border-4 border-emerald-50 py-1 rounded-lg text-emerald-600 font-medium hover:bg-emerald-500 hover:text-slate-100 hover:border-emerald-200"

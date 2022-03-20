@@ -18,7 +18,7 @@ export default function Hero() {
         <img
           src={process.env.PUBLIC_URL + "/game.svg"}
           className="w-full p-12 lg:p-24"
-          alt=""
+          alt="game"
         />
       </div>
     </div>
